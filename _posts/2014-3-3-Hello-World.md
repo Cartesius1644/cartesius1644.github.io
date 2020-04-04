@@ -2,8 +2,7 @@
 layout: post
 title: You're up and running!
 
-<p>Hello world!
-ljlkjlkljlk</p>
+<p>Hello world!</p>
 
 ---
 
