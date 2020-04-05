@@ -4,9 +4,7 @@ title: You're up and running!
 ---
 Test: I am riding on a bus. lksdlfjlsdjfsdlfjslfjklsdjfkl 
 
- {% raw %}
   $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
- {% endraw %}
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 
