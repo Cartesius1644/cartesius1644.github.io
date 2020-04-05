@@ -3,7 +3,7 @@ layout: post
 title: You're up and running!
 
 ---
-Test: I am riding on a bus.
+Test: I am riding on a bus. lksdlfjlsdjfsdlfjslfjklsdjfkl
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 
