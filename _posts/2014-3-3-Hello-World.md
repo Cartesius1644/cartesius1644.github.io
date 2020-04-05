@@ -5,7 +5,7 @@ title: You're up and running!
 ---
 Test: I am riding on a bus.
 
-  $a^2 + b^2 = c^2$ --> note that all equations between these tags will not need escaping! 
+that all equations between these tags will not need escaping! 
 
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
