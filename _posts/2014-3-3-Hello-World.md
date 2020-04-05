@@ -2,7 +2,7 @@
 layout: post
 title: You're up and running!
 ---
-Test: I am riding on a bus. lksdlfjlsdjfsdlfjslfjklsdjfkl 
+Test: I am riding on a bus.
 
   $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
 
