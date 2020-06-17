@@ -4,7 +4,7 @@ title: You're up and running!
 ---
 Test: I am riding on a bus.
 
-![\frac{\partial^{\alpha} \varphi(x,t)}{\partial |x|^{\alpha}}](https://render.githubusercontent.com/render/math?math=%5Cfrac%7B%5Cpartial%5E%7B%5Calpha%7D%20%5Cvarphi(x%2Ct)%7D%7B%5Cpartial%20%7Cx%7C%5E%7B%5Calpha%7D%7D)
+![\frac{\partial^{\alpha} \varphi(x,t)}{\partial |x|^{\alpha}}]
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 
