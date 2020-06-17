@@ -6,6 +6,10 @@ Test: I am riding on a bus.
 
 <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 
+<img src="https://render.githubusercontent.com/render/math?math=\frac{\partial^{\alpha} \varphi(x,t)}{\partial |x|^{\alpha}}">
+
+
+
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
