@@ -1,6 +1,6 @@
 ---
 layout: post
-title: You're up and running!
+title: The Smoluchowski Coagulation Equation
 ---
 Test: I am riding on a bus.
 
