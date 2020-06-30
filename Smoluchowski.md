@@ -6,9 +6,11 @@ Test: I am riding on a bus.
 
 <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 
-<img src="https://render.githubusercontent.com/render/math?math=\frac{\partial^{\alpha} \varphi(x,t)}{\partial |x|^{\alpha}}">
+<img src="https://render.githubusercontent.com/render/math?math=\frac{\partial n(x_i,t)}{\partial t}= \frac{1}{2} \sum_{j=0}^{i-1}K(x_i-x_j,x_j)n(x_i-x_j,t)n(x_j,t) - \sum_{j=1}^{\infty}K(x_i,x_j)n(x_i,t)n(x_j,t)">
 
-lsdljflsdkfsdkfj
+\frac{\partial n(x_i,t)}{\partial t}= \frac{1}{2} \sum_{j=0}^{i-1}K(x_i-x_j,x_j)n(x_i-x_j,t)n(x_j,t) - \sum_{j=1}^{\infty}K(x_i,x_j)n(x_i,t)n(x_j,t)
+
+
 
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
