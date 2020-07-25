@@ -8,7 +8,7 @@ title: The Smoluchowski Coagulation Equation
 
 ## History and Motivation
 
-  Marian Smoluchowski (1872-1917) was a polish physicist, and is probably best remembered for his explanation for the Brownian motion, which he derived independently of Einstein in 1906. He worked primarily in the fields of kinetic theory and statistical mechanics. In 1916, he derived the SCE, which is the subject of this post.
+  Marian Smoluchowski (1872-1917) was a polish physicist, and is probably best remembered for his explanation for the Brownian motion, which he derived independently of Einstein in 1906. He worked primarily in the fields of kinetic theory and statistical mechanics. In 1916, he derived his celebrated coagulation equation, which is the subject of this post.
   
   The SCE can be used to model clumping dynamics in colloidal systemss. A colloid is any system where large molecules, droplets, or particles dispersed through some other bulk medium. Examples include milk, blood, mayonnaise, shaving cream, smoke, and polymeric and micellar solutions. The suspended particles will exert forces on each other, which may be attractive. For example, consider a solution of proteins disolved in water. The proteins may be charged and thus experience coulombic forces. Even in the absence of charges, depletion forces may be at work, and cause the particles to attract. 
   
