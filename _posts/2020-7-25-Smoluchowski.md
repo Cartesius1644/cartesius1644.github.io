@@ -12,7 +12,7 @@ title: The Smoluchowski Coagulation Equation
 
 ## Motivation
 
-  The SCE can be used to model clumping dynamics in colloidal systemss. A colloid is any system where large molecules, droplets, or particles dispersed through some other bulk medium. Examples include milk, blood, mayonnaise, shaving cream, smoke, and polymeric and micellar solutions. The suspended particles will exert forces on each other, which may be attractive. For example, consider a solution of proteins disolved in water. The proteins may be charged and thus experience coulombic forces. Even in the absence of charges, depletion forces may be at work, and cause the particles to attract. 
+  The SCE can be used to model clumping dynamics in colloidal systems. A colloid is any system where large molecules, droplets, or particles dispersed through some other bulk medium. Examples include milk, blood, mayonnaise, shaving cream, smoke, and polymeric and micellar solutions. The suspended particles will exert forces on each other, which may be attractive. For example, consider a solution of proteins disolved in water. The proteins may be charged and thus experience coulombic forces. Even in the absence of charges, depletion forces may be at work, and cause the particles to attract. 
   
   How might we study the evolution of such a system? We could take very detailed, granualar view, perhaps using molecular dynamics software and obtain trajectories of the particles from the forces involved. Perhaps for a large enough system simulated over a long enough time we might be able to observe clumping. This is a computationally expensive approach, and will become very difficult for large numbers of particles and long simulation time lengths.
   
