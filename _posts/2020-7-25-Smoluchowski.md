@@ -3,10 +3,6 @@ layout: post
 title: The Smoluchowski Coagulation Equation
 ---
 
-
-
-
-
 # Introduction
 
   In this post I want to go through a detailed discussion of the Smoluchowski coagulation equation (SCE), a beautifully complicated partial differential equation (PDE) used to model clumping dynamics in solutions of microscopic particles. I have divided this post into several sections. First we will briefly discuss some history and the processes the equation is intended to model. Then we will discuss all the parts of the equation and see whether it indeed serves as a plausible model of coagulation. We will then turn to discussing various analytical solutions to the equation as well as possible numerical solution methods. Finally, we will consider possible extensions and modifications of the original PDE, and some interesting applications these extensions might have.
