@@ -3,17 +3,17 @@ layout: post
 title: The Smoluchowski Coagulation Equation
 ---
 
-# Introduction
+## Introduction
 
   In this post I want to go through a detailed discussion of the Smoluchowski coagulation equation (SCE), a beautifully complicated partial differential equation (PDE) used to model clumping dynamics in solutions of microscopic particles. I have divided this post into several sections. First we will briefly discuss some history and the processes the equation is intended to model. Then we will discuss all the parts of the equation and see whether it indeed serves as a plausible model of coagulation. We will then turn to discussing various analytical solutions to the equation as well as possible numerical solution methods. Finally, we will consider possible extensions and modifications of the original PDE, and some interesting applications these extensions might have.
 
-# History
+## History
 
 ![_config.yml]({{ site.baseurl }}/images/marian_smoluchowski_original.jpg)
 
   Marian Smoluchowski (1872-1917) was a polish physicist, and is probably best remembered for his explanation for the Brownian motion, which he derived independently of Einstein in 1906. He worked primarily in the fields of kinetic theory and statistical mechanics. In 1916, he derived his celebrated coagulation equation, which is the subject of this post.
 
-# Motivation
+## Motivation
 
   The SCE can be used to model clumping dynamics in colloids. A colloid is any system where large molecules, droplets, or particles are dispersed through some other bulk medium. Examples include milk, blood, mayonnaise, shaving cream, smoke, and polymeric and micellar solutions. The suspended particles will exert forces on each other, which may be attractive, leading to clumping. For example, consider a solution of proteins disolved in water. The proteins may be charged and thus experience coulombic forces. Even in the absence of charges, depletion forces may be at work and cause the particles to attract. 
   
@@ -21,15 +21,15 @@ title: The Smoluchowski Coagulation Equation
   
   Is there another way? We could take the opposite approach, sweep the details of the molecular forces and trajectories away, and zoom out to examine the system on a much larger scale. Here we would not worry about what one particle is doing at some moment in time. In fact that sort of information would be completely inaccessible to us. This is not a problem though if we are only interested in the macroscopic properties of the system, such as the distribution of clump sizes. This is the approach we take with the SCE.
 
-# Constructing the Equation
+## Constructing the Equation
 
-## Comment on Derivations
+### Comment on Derivations
 
   Before we begin I want to make a few comments about the title and intention of this section. I say we are "constructing" the SCE because, as with many famous differential equations in science, there is no mathematically rigourous derivation. The equation is constructed in a way that makes physical or intuitive sense. In the Feynmann Lectures, Feynmann says, refering to the Schrodinger Equation, "Where did we get that from? Nowhere. It’s not possible to derive it from anything you know. It came out of the mind of Schrödinger, invented in his struggle to find an understanding of the experimental observations of the real world." In his book *The Meaning of Quantum Theory*, Jim Baggot gives an informal derivation of the Schrodinger equation, which follows what Schrodinger did in his private notebooks. It starts with the classical wave equation and only takes about five lines of simple math. But it is not a derivation in the rigorous sense that a mathematician would want, and is not grounded in some deeper, more fundimental theory or picture of nature. So far no-one has provided such a derivation. But the Schrodinger equation does have an intuitive, informal derivation which makes sense, and the predictions that come from its application agree excellently with experiment and observation. This is the ultimate criteria in science, but it would be nice to see the equation emerge logically from some set of axioms or first principles. This is an active (and very interesting and difficult) area of research. 
   
   It is in this same spirit that we should take the "derivation" of the SCE. That is why "constructing" might be a better, more accurate word for what we will do. Smoluchowski probably had good reason for writing his equation the way he did, and we will try to understand them. The important point is that they were based in physical intuition, rather than mathematical rigor. Hopefully one day there will exist proofs, part of more general theories, that shows why the differential equations we use are the only ones that can model our world. 
 
-## Assumptions and Justification
+### Assumptions and Justification
 
   Now to business. We need to make some assumptions and definitions before constructing the SCE. In the case of the discrete SCE, we assume our system consists of a large number of fundamental particles dissolved in a fluid medium.They are fundamental in the sense that for the model we ignore any possibility that they can be broken down or built up of smaller particles. For the model they serve as the "Lego bricks" out of which larger particles or "clumps" form through coagulation. Of course, if the fundimental particles are proteins or polymers then they are not actually fundimental, but the idea is that we are ignoring there internal parts and internal degrees of freedom (the monomers or atoms they are made out of). Clumps of various sizes (or massses) <img src="https://render.githubusercontent.com/render/math?math=x_i"> form through aggregation of smaller clumps or fundamental particles. <img src="https://render.githubusercontent.com/render/math?math=x_i"> could be the diameter of a clump or its mass. Alternatively, it could also be the length of a polymer. Finally we assume that aggregation is irreversible: clumps only get bigger, they never fragment or shed particles. However, we can easily modify the SCE to account for both aggregation and fragmentation. We will come back to this.
  
@@ -47,8 +47,8 @@ title: The Smoluchowski Coagulation Equation
 
 
 
-# Analytical Solutions, Numerical Methods
-# Extensions, and further Applications
+## Analytical Solutions, Numerical Methods
+## Extensions, and further Applications
   
 
 
