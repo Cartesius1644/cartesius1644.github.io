@@ -37,7 +37,7 @@ title: The Smoluchowski Coagulation Equation
 
   This is an example of the Law of Mass Action. The rate of change of the concentration of a chemical <img src="https://render.githubusercontent.com/render/math?math=Z"> is proportional to the product of the concentration of chemical <img src="https://render.githubusercontent.com/render/math?math=X"> and the concentration of chemical <img src="https://render.githubusercontent.com/render/math?math=Y">. <img src="https://render.githubusercontent.com/render/math?math=K(x,y)"> is the reaction rate and models the likelyhood that a reaction between <img src="https://render.githubusercontent.com/render/math?math=X"> and <img src="https://render.githubusercontent.com/render/math?math=Y"> will occur to produce <img src="https://render.githubusercontent.com/render/math?math=Z">. It measures the number of encounters between molecules of <img src="https://render.githubusercontent.com/render/math?math=X"> and molecules <img src="https://render.githubusercontent.com/render/math?math=Y"> per unit volume per unit time.
 
-![_config.yml]({{ site.baseurl }}/images/coagulation.gif)
+![_config.yml]({{ site./gifsicle -bl }}/images/coagulation.gif)
 
 
 
