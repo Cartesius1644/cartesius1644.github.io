@@ -8,6 +8,8 @@ title: The Smoluchowski Coagulation Equation
 
 ## History
 
+![_config.yml]({{ site.baseurl }}/images/marian_smoluchowski_original.jpg)
+
   Marian Smoluchowski (1872-1917) was a polish physicist, and is probably best remembered for his explanation for the Brownian motion, which he derived independently of Einstein in 1906. He worked primarily in the fields of kinetic theory and statistical mechanics. In 1916, he derived his celebrated coagulation equation, which is the subject of this post.
 
 ## Motivation
