@@ -46,7 +46,7 @@ title: The Smoluchowski Coagulation Equation
   As an interesting asside, this is identical to an assumption made in the Lotka Volterra equations, an ecological model of predator prey interactions: "The rate of predation upon the prey is assumed to be proportional to the rate at which the predators and the prey meet". Note this all assumes that the system is "well mixed", that is we assume we do not have to worry about chemical species (or animals) of one type segregating into large patches or phases. In that more complex case interactions would happen at interfaces between the different phases, and we would have to consider the details of the motion of the fluid of chemicals or animal populations. For the SCE model we ignore bulk fluid flow. This is illustrated in figure 1.
 
 ![_config.yml]({{ site.baseurl }}/images/mixed_unmixed.png)
-Fig 1
+Fig 1: A represents a well mixed system of two species of particles. B represents a system of two species of particles seperated into two phases.
   
   
 
