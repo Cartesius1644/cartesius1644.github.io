@@ -69,6 +69,13 @@ there a <img src="https://render.githubusercontent.com/render/math?math=\frac{1}
 ### Assumptions and Justification for the Continuous Equation
 
 ## Analytical Solutions, Numerical Methods
+
+
+![_config.yml]({{ site.baseurl }}/images/n_xt_SCE_k_const.pdf)
+
+Fig 4: Plot of the distribution <img src="https://render.githubusercontent.com/render/math?math=n(x_i,t)"> as a function of particle size <img src="https://render.githubusercontent.com/render/math?math=x_i"> and time <img src="https://render.githubusercontent.com/render/math?math=t"> for the constant kernel <img src="https://render.githubusercontent.com/render/math?math=K(x_i,x_j)=1">
+
+
 ## Extensions, and further Applications
   
 
