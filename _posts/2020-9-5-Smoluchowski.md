@@ -49,22 +49,21 @@ title: The Smoluchowski Coagulation Equation
 
 Fig 1: A represents a well mixed system of two species of particles. B represents a system of two species of particles seperated into two phases.
   
-  Now consider the overall structure of equation 1 again. We are interested in the rate of change of the number of clumps of size <img src="https://render.githubusercontent.com/render/math?math=x_i"> We expect this rate to depend on the number clumps of size <img src="https://render.githubusercontent.com/render/math?math=x_i"> that are being formed through aggragation of smaller clumps, minus the number that are being removed by combining with other clumps to form still larger clumps. Possible interactions in terms of the fundimental particles are illustrated in the figure 2.
+  Now consider the overall structure of equation 1 again. We are interested in the rate of change of the number of clumps of size <img src="https://render.githubusercontent.com/render/math?math=x_i"> We expect this rate to depend on the number clumps of size <img src="https://render.githubusercontent.com/render/math?math=x_i"> that are being formed through aggragation of smaller clumps, minus the number that are being removed by combining with other clumps to form still larger clumps. Possible interactions in terms of the fundimental particles are illustrated in the figure 2. The process of multiple interaction is animated in figure 3.
 
 ![_config.yml]({{ site.baseurl }}/images/Smoluchowski_Aggregation_Kinetics.png){:height="30%" width="30%"}
 
 Fig 2: Various possible reactions and there respective multiplicative kernels or reaction rate constants.
+
+![_config.yml]({{ site.baseurl }}/images/coagulation_loop.gif)
+
+Fig 3: Illustration of coagulation process with some example multiplicative kernels and their respective clump.
 
   Let's zoom down further and just consider the first term on the right hand side. This term accounts for the formation of a clump of size (or mass) <img src="https://render.githubusercontent.com/render/math?math=x_i"> through the sticking together of a particle of size <img src="https://render.githubusercontent.com/render/math?math=x_i-x_j"> and a particle of size <img src="https://render.githubusercontent.com/render/math?math=x_j">. Note <img src="https://render.githubusercontent.com/render/math?math=(x_i-x_j) %2B x_j=x_i">. But there are many particles of size <img src="https://render.githubusercontent.com/render/math?math=x_j"> and <img src="https://render.githubusercontent.com/render/math?math=x_i-x_j"> so we need to sum over <img src="https://render.githubusercontent.com/render/math?math=j"> to account for all of them.
 
   We account for their likelihood to meet each other, react, and form a clump of size <img src="https://render.githubusercontent.com/render/math?math=x_i"> using equation 2. This will increase the concentration of a clump of size <img src="https://render.githubusercontent.com/render/math?math=x_i">. We sum up to <img src="https://render.githubusercontent.com/render/math?math=i-1"> because if <img src="https://render.githubusercontent.com/render/math?math=i"> were allowed to equal <img src="https://render.githubusercontent.com/render/math?math=j"> then <img src="https://render.githubusercontent.com/render/math?math=x_i-x_j=0">. Adding a clump of size <img src="https://render.githubusercontent.com/render/math?math=0"> to <img src="https://render.githubusercontent.com/render/math?math=x_j=x_i"> would do nothing. Why is
 there a <img src="https://render.githubusercontent.com/render/math?math=\frac{1}{2}">? This stops double counting from happening: <img src="https://render.githubusercontent.com/render/math?math=x_1 %2B x_3"> is the same as <img src="https://render.githubusercontent.com/render/math?math=x_3 %2B x_1">. There is no order or directionality to how the reactants combine, because for a single reaction only two chemical species are involved and they only react in one step.
 
-
-
-
-
-![_config.yml]({{ site.baseurl }}/images/coagulation_loop.gif)
 
 
 
