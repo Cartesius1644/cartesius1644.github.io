@@ -73,10 +73,11 @@ there a <img src="https://render.githubusercontent.com/render/math?math=\frac{1}
 
 ## Analytical Solutions, Numerical Methods, and Extensions
 
-
 ![_config.yml]({{ site.baseurl }}/images/n_xt_SCE_k_const.png)
 
 Fig 4: Plot of the solution of the discrete SCE <img src="https://render.githubusercontent.com/render/math?math=n(x_i,t)"> as a function of integer cluster size <img src="https://render.githubusercontent.com/render/math?math=x_i"> and time <img src="https://render.githubusercontent.com/render/math?math=t"> for the constant kernel <img src="https://render.githubusercontent.com/render/math?math=K(x_i,x_j)=1">
+
+  The analytical solution for the constant kernel <img src="https://render.githubusercontent.com/render/math?math=K(x_i,x_j)=1"> is plotted in figure 4.
 
 <img src="https://render.githubusercontent.com/render/math?math=4.\quad \frac{\partial n(x,t)}{\partial t} = \frac{1}{2} \sum_{j=0}^{i-1} [K(x_i-x_j,x_j)-F(x_i-x_j,x_j)]n(x_i-x_j,t)n(x_j,t) - \sum_{j=1}^{\infty} [K(x_i,x_j)-F(x_i,x_j)]n(x_i,t)n(x_j,t)">
 
