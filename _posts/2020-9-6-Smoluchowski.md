@@ -66,7 +66,10 @@ there a <img src="https://render.githubusercontent.com/render/math?math=\frac{1}
 
   Now consider the second term on the right hand side. clusters of size <img src="https://render.githubusercontent.com/render/math?math=x_i"> disappear when they fuse with other clusters or with fundamental particles. We sum over all cluster sizes, since addition of any other sized cluster would produce a cluster that is no longer of size <img src="https://render.githubusercontent.com/render/math?math=x_i">. This lowers the instantaneous concentration of clusters of size <img src="https://render.githubusercontent.com/render/math?math=x_i">. To round out our analysis of the SCE let us return to the big picture view and note the single PDE, equation 1, really represents a system of coupled PDEs, because the concentration of any given <img src="https://render.githubusercontent.com/render/math?math=x_i"> depends on the concentrations of all the others, which themselves depend on <img src="https://render.githubusercontent.com/render/math?math=x_i"> and all the others <img src="https://render.githubusercontent.com/render/math?math=x_{j \neq i}">.
   
-### Assumptions and Justification for the Continuous Equation
+### The Continuous Generalization
+
+<img src="https://render.githubusercontent.com/render/math?math=3.\quad \frac{\partial n(x,t)}{\partial t} = \frac{1}{2} \int_{0}^{x} K(x-y,y)n(x-y,t)n(y,t)dy - \int_{0}^{\infty} K(x,y)n(x,t)n(y,t)dy">
+
 
 ## Analytical Solutions, Numerical Methods
 
