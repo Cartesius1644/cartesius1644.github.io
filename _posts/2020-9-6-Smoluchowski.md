@@ -80,6 +80,9 @@ Fig 4: Plot of the solution of the discrete SCE <img src="https://render.githubu
 
 
 ## Extensions, and further Applications
+
+<img src="https://render.githubusercontent.com/render/math?math=\frac{\partial n(x,t)}{\partial t} = \frac{1}{2} \sum_{j=0}^{i-1} [K(x_i-x_j,x_j)-F(x_i-x_j,x_j)]n(x_i-x_j,t)n(x_j,t) - \sum_{j=1}^{\infty} [K(x_i,x_j)-F(x_i,x_j)]n(x_i,t)n(x_j,t)">
+
   
 
 
