@@ -71,21 +71,21 @@ there a <img src="https://render.githubusercontent.com/render/math?math=\frac{1}
 <img src="https://render.githubusercontent.com/render/math?math=3.\quad \frac{\partial n(x,t)}{\partial t} = \frac{1}{2} \int_{0}^{x} K(x-y,y)n(x-y,t)n(y,t)dy - \int_{0}^{\infty} K(x,y)n(x,t)n(y,t)dy">
 
 
-## Analytical Solutions, Numerical Methods
+## Analytical Solutions, Numerical Methods, and Extensions
 
 
 ![_config.yml]({{ site.baseurl }}/images/n_xt_SCE_k_const.png)
 
 Fig 4: Plot of the solution of the discrete SCE <img src="https://render.githubusercontent.com/render/math?math=n(x_i,t)"> as a function of integer cluster size <img src="https://render.githubusercontent.com/render/math?math=x_i"> and time <img src="https://render.githubusercontent.com/render/math?math=t"> for the constant kernel <img src="https://render.githubusercontent.com/render/math?math=K(x_i,x_j)=1">
 
-
-## Extensions, and further Applications
-
 <img src="https://render.githubusercontent.com/render/math?math=4.\quad \frac{\partial n(x,t)}{\partial t} = \frac{1}{2} \sum_{j=0}^{i-1} [K(x_i-x_j,x_j)-F(x_i-x_j,x_j)]n(x_i-x_j,t)n(x_j,t) - \sum_{j=1}^{\infty} [K(x_i,x_j)-F(x_i,x_j)]n(x_i,t)n(x_j,t)">
 
   As mentioned earlier, in the original model cluster growth is always positive. In equation 4 I modified the SCE by adding some terms to account for fragmentation. All I really did was add <img src="https://render.githubusercontent.com/render/math?math=F(x,y)">, which essentially does the opposite of <img src="https://render.githubusercontent.com/render/math?math=K(x,y)">, and accounts for the reverse reaction where a cluster can fragment into two smaller clusters. Perhaps this can happen when two clusters collide and shatter. Note that there is no reason for the forward and reverse processes to have the same rates. Coagulation could be favored over fragmentation, or vis versa. A still some more complicated situation could exist where what effect dominates changes with time. Maybe the clusters become more delicate as they get larger and so are more prone to fragmentation once they have gotten large enough.
 
   A possible application of this extended model is actin treadmilling.
+
+## Conclusion
+
   
 
 
