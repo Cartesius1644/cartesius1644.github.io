@@ -89,7 +89,7 @@ Fig 4: Plot of the solution of the discrete SCE <img src="https://render.githubu
 
 To do list:
 1. discuss continuous equation
-2. discuss case where clusters have more than one property <img src="https://render.githubusercontent.com/render/math?math=n(x_{i}^{\alpha},x_{i}^{\beta},\hdots, x_{i},t)">
+2. discuss case where clusters have more than one property <img src="https://render.githubusercontent.com/render/math?math=n(x_{i}^{\alpha},x_{i}^{\beta},\ldots, x_{i},t)">
 3. discuss that numerical methods paper from 2018
 4. Write conclusion
 
