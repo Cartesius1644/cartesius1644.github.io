@@ -41,7 +41,7 @@ title: The Smoluchowski Coagulation Equation
   
 <img src="https://render.githubusercontent.com/render/math?math=2.\quad \frac{\partial n(z,t)}{\partial t}=K(x,y)n(x,t)n(y,t)">
 
-  First note that equation 2 is idendical in form to a single term in one of the sums of equation 1. Secondly, equation 2 is an example of the Law of Mass Action. The rate of change of the concentration of a chemical <img src="https://render.githubusercontent.com/render/math?math=Z"> is proportional to the product of the concentration of chemical <img src="https://render.githubusercontent.com/render/math?math=X"> and the concentration of chemical <img src="https://render.githubusercontent.com/render/math?math=Y">. <img src="https://render.githubusercontent.com/render/math?math=K(x,y)"> is the reaction rate constant and models the likelyhood that a reaction between <img src="https://render.githubusercontent.com/render/math?math=X"> and <img src="https://render.githubusercontent.com/render/math?math=Y"> will occur to produce <img src="https://render.githubusercontent.com/render/math?math=Z">. It measures the number of encounters between molecules of <img src="https://render.githubusercontent.com/render/math?math=X"> and molecules <img src="https://render.githubusercontent.com/render/math?math=Y"> per unit volume per unit time. As an interesting asside, this is identical to an assumption made in the Lotka Volterra equations, an ecological model of predator prey interactions: "The rate of predation upon the prey is assumed to be proportional to the rate at which the predators and the prey meet". In the SCE it is called the multiplicative kernel and comes from the theory of integral transforms that includes Fourier and Laplace transforms.
+  First note that equation 2 is idendical in form to a single term in one of the sums of equation 1. Secondly, equation 2 is an example of the Law of Mass Action. The rate of change of the concentration of a chemical <img src="https://render.githubusercontent.com/render/math?math=Z"> is proportional to the product of the concentration of chemical <img src="https://render.githubusercontent.com/render/math?math=X"> and the concentration of chemical <img src="https://render.githubusercontent.com/render/math?math=Y">. <img src="https://render.githubusercontent.com/render/math?math=K(x,y)"> is the reaction rate constant and models the likelyhood that a reaction between <img src="https://render.githubusercontent.com/render/math?math=X"> and <img src="https://render.githubusercontent.com/render/math?math=Y"> will occur to produce <img src="https://render.githubusercontent.com/render/math?math=Z">. It measures the number of encounters between molecules of <img src="https://render.githubusercontent.com/render/math?math=X"> and molecules <img src="https://render.githubusercontent.com/render/math?math=Y"> per unit volume per unit time. As an interesting asside, this is identical to an assumption made in the Lotka Volterra equations, an ecological model of predator prey interactions: "The rate of predation upon the prey is assumed to be proportional to the rate at which the predators and the prey meet". In the SCE it is called the coagulation kernel and comes from the theory of integral transforms that includes Fourier and Laplace transforms.
   
   Note this all assumes that the system is "well mixed", that is we assume we do not have to worry about chemical species (or animals) of one type segregating into large patches or phases. In that more complex case interactions would happen at interfaces between the different phases, and we would have to consider the details of the motion of the fluid of chemicals or animal populations. For the SCE model we ignore bulk fluid flow. This is illustrated in figure 1. In the case of the SCE the red and blue particles could represent two possible cluster sizes. In a more realisitic scenario there would be many more than just two different cluster sizes. The point about mixing is related to what we mentioned earlier about ingnoring the details of molecular motion in favour of a "big picture view". If we did not make the assumption that the system is well mixed, we probably would not need to know the trajectories of individual molecules, but we would need to take a more granular view of the fluid. This would probably involve creating a model which married the SCE and the reaction-diffusion equations or the Navier-Stokes equations, which are used to model the flow of fluids and chemical species. 
 
@@ -49,15 +49,15 @@ title: The Smoluchowski Coagulation Equation
 
 Fig 1: A represents a well mixed system of two species of particles. B represents a system of two species of particles seperated into two phases.
   
-  Now consider the overall structure of equation 1 again. We are interested in the rate of change of the number of clusters of size <img src="https://render.githubusercontent.com/render/math?math=x_i"> We expect this rate to depend on the number clusters of size <img src="https://render.githubusercontent.com/render/math?math=x_i"> that are being formed through aggragation of smaller clusters, minus the number that are being removed by combining with other clusters to form still larger clusters. Possible interactions in terms of the fundimental particles are illustrated in the figure 2. The process of multiple reactions (and some of their multiplicative kernels) is animated in figure 3.
+  Now consider the overall structure of equation 1 again. We are interested in the rate of change of the number of clusters of size <img src="https://render.githubusercontent.com/render/math?math=x_i"> We expect this rate to depend on the number clusters of size <img src="https://render.githubusercontent.com/render/math?math=x_i"> that are being formed through aggragation of smaller clusters, minus the number that are being removed by combining with other clusters to form still larger clusters. Possible interactions in terms of the fundimental particles are illustrated in the figure 2. The process of multiple reactions (and some of their coagulation kernels) is animated in figure 3.
 
 ![_config.yml]({{ site.baseurl }}/images/Smoluchowski_Aggregation_Kinetics.png){:height="30%" width="30%"}
 
-Fig 2: Various possible reactions and there respective multiplicative kernels or reaction rate constants.
+Fig 2: Various possible reactions and there respective coagulation kernels or reaction rate constants.
 
 ![_config.yml]({{ site.baseurl }}/images/coagulation_loop.gif)
 
-Fig 3: Illustration of coagulation process with some example multiplicative kernels and their respective clusters.
+Fig 3: Illustration of coagulation process with some example coagulation kernels and their respective clusters.
 
   Let's zoom down further and just consider the first term on the right hand side. This term accounts for the formation of a cluster of size (or mass) <img src="https://render.githubusercontent.com/render/math?math=x_i"> through the sticking together of a particle of size <img src="https://render.githubusercontent.com/render/math?math=x_i-x_j"> and a particle of size <img src="https://render.githubusercontent.com/render/math?math=x_j">. Note <img src="https://render.githubusercontent.com/render/math?math=(x_i-x_j) %2B x_j=x_i">. But there are many particles of size <img src="https://render.githubusercontent.com/render/math?math=x_j"> and <img src="https://render.githubusercontent.com/render/math?math=x_i-x_j"> so we need to sum over <img src="https://render.githubusercontent.com/render/math?math=j"> to account for all of them.
 
@@ -75,9 +75,9 @@ there a <img src="https://render.githubusercontent.com/render/math?math=\frac{1}
 
 ![_config.yml]({{ site.baseurl }}/images/n_xt_SCE_k_const.png)
 
-Fig 4: Plot of the solution of the discrete SCE <img src="https://render.githubusercontent.com/render/math?math=n(x_i,t)"> as a function of integer cluster size <img src="https://render.githubusercontent.com/render/math?math=x_i"> and time <img src="https://render.githubusercontent.com/render/math?math=t"> for the constant kernel <img src="https://render.githubusercontent.com/render/math?math=K(x_i,x_j)=1">
+Fig 4: Plot of the solution of the discrete SCE <img src="https://render.githubusercontent.com/render/math?math=n(x_i,t)"> as a function of integer cluster size <img src="https://render.githubusercontent.com/render/math?math=x_i"> and time <img src="https://render.githubusercontent.com/render/math?math=t"> for the constant coagulation kernel <img src="https://render.githubusercontent.com/render/math?math=K(x_i,x_j)=1">
 
-  The analytical solution for the constant kernel <img src="https://render.githubusercontent.com/render/math?math=K(x_i,x_j)=1"> is plotted in figure 4.
+  The analytical solution of the SCE with a constant coagulation kernel <img src="https://render.githubusercontent.com/render/math?math=K(x_i,x_j)=1"> is plotted in figure 4.
 
 <img src="https://render.githubusercontent.com/render/math?math=4.\quad \frac{\partial n(x,t)}{\partial t} = \frac{1}{2} \sum_{j=0}^{i-1} [K(x_i-x_j,x_j)-F(x_i-x_j,x_j)]n(x_i-x_j,t)n(x_j,t) - \sum_{j=1}^{\infty} [K(x_i,x_j)-F(x_i,x_j)]n(x_i,t)n(x_j,t)">
 
@@ -89,11 +89,12 @@ Fig 4: Plot of the solution of the discrete SCE <img src="https://render.githubu
 
 To do list:
 1. discuss continuous equation
-2. discuss case where clusters have more than one property <img src="https://render.githubusercontent.com/render/math?math=n(x_{i}^{\alpha},x_{j}^{\beta},\ldots, x_{k}^{\gamma},t)">
-3. discuss that numerical methods paper from 2018
-4. Write conclusion
-5. Add sources
-6. Proof read
+2. Need to add the analytic solution for the constant kernel
+3. discuss case where clusters have more than one property <img src="https://render.githubusercontent.com/render/math?math=n(x_{i}^{\alpha},x_{j}^{\beta},\ldots, x_{k}^{\gamma},t)">
+4. discuss that numerical methods paper from 2018
+5. Write conclusion
+6. Add sources
+7. Proof read
 
   
 
