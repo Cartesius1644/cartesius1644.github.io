@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Publications and Presentations
-permalink: /Publications and Presentations/
+permalink: /pubpres/
 ---
 ## About Me
 
