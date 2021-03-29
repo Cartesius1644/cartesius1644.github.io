@@ -68,7 +68,7 @@ there a <img src="https://render.githubusercontent.com/render/math?math=\frac{1}
   
 ### The Continuous Generalization
 
-We can generalize the SCE to deal we a continuum of possible clump sizes. We start with equation 1 and make the substitutions <img src="https://render.githubusercontent.com/render/math?math=x_i \rightarrow x">, <img src="https://render.githubusercontent.com/render/math?math=x_j \rightarrow y">
+We can generalize the SCE to deal we a continuum of possible clump sizes. We start with equation 1 and make the substitutions <img src="https://render.githubusercontent.com/render/math?math=x_i \rightarrow x">, <img src="https://render.githubusercontent.com/render/math?math=x_j \rightarrow y">, <img src="https://render.githubusercontent.com/render/math?math=\sum_{j=0}^{i-1} \rightarrow \int_{0}^{x} dy">
 
 <img src="https://render.githubusercontent.com/render/math?math=3.\quad \frac{\partial n(x,t)}{\partial t} = \frac{1}{2} \int_{0}^{x} K(x-y,y)n(x-y,t)n(y,t)dy - \int_{0}^{\infty} K(x,y)n(x,t)n(y,t)dy">
 
