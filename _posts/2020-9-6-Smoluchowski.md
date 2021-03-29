@@ -5,7 +5,7 @@ title: The Smoluchowski Coagulation Equation
 
 ## Introduction
 
-  In this post I want to go through a discussion of the Smoluchowski coagulation equation (SCE), a beautifully complicated partial differential equation (PDE) used to model clumping dynamics in solutions of microscopic particles. I have divided this post into several sections. First we will briefly discuss some history and the processes the equation is intended to model. Then we will discuss all the parts of the equation and see whether it indeed serves as a plausible model of coagulation. We will then turn to discussing various analytical solutions to the equation as well as possible numerical solution methods. Finally, we will consider possible extensions and modifications of the original PDE, and some interesting applications these extensions might have.
+  In this post I want to go through a discussion of the Smoluchowski coagulation equation (SCE), a beautifully complicated partial differential equation (PDE) used to model clumping dynamics in solutions of microscopic particles. I have divided this post into several sections. First we will briefly discuss some history and the processes the equation is intended to model. Then we will discuss all the parts of the equation and see whether it indeed serves as a plausible model of coagulation. Finally, we will briefly discuss an example of an analytical solution to the SCE and consider possible extensions and modifications of the original PDE, as well as some interesting applications these extensions might have.
 
 ## History
 
@@ -27,7 +27,7 @@ title: The Smoluchowski Coagulation Equation
 
   Before we begin I want to make a few comments about the title and intention of this section. I say we are "constructing" the SCE because, as with many famous differential equations in science, there is no mathematically rigourous derivation. The equation is constructed in a way that makes physical or intuitive sense. In the Feynmann Lectures, Feynmann says, refering to the Schrodinger Equation, "Where did we get that from? Nowhere. It’s not possible to derive it from anything you know. It came out of the mind of Schrödinger, invented in his struggle to find an understanding of the experimental observations of the real world." In his book *The Meaning of Quantum Theory*, Jim Baggot gives an informal derivation of the Schrodinger equation, which follows what Schrodinger did in his private notebooks. It starts with the classical wave equation and only takes about five lines of simple math. But it is not a derivation in the rigorous sense that a mathematician would want, and is not grounded in some deeper, more fundimental theory or picture of nature. So far no-one has provided such a derivation. But the Schrodinger equation does have an intuitive, informal derivation which makes sense, and the predictions that come from its application agree excellently with experiment and observation. This is the ultimate criteria in science, but it would be nice to see the equation emerge logically from some set of axioms or first principles. This is an active (and very interesting and difficult) area of research. 
   
-  It is in this same spirit that we should take the "derivation" of the SCE. That is why "constructing" might be a better, more accurate word for what we will do. Smoluchowski probably had good reason for writing his equation the way he did, and we will try to understand them. The important point is that they were based in physical intuition, rather than mathematical rigor. Hopefully one day there will exist proofs, part of more general theories, that shows why the differential equations we use are the only ones that can model our world. 
+  It is in this same spirit that we should take the "derivation" of the SCE. That is why "constructing" might be a better, more accurate word for what we will do. Smoluchowski probably had good reasons for writing his equation the way he did, and we will try to understand them. The important point is that they were based in physical intuition, rather than mathematical rigor. Hopefully one day there will exist proofs, part of more general theories, that shows why the differential equations we use are the only ones that can model our world. 
 
 ### Assumptions and Justification for the Discreet Equation
 
@@ -89,12 +89,10 @@ Fig 4: Plot of the solution of the discrete SCE <img src="https://render.githubu
 
 To do list:
 1. discuss continuous equation
-2. Need to add the analytic solution for the constant kernel
-3. discuss case where clusters have more than one property <img src="https://render.githubusercontent.com/render/math?math=n(x_{i}^{\alpha},x_{j}^{\beta},\ldots, x_{k}^{\gamma},t)">
-4. discuss that numerical methods paper from 2018
-5. Write conclusion
-6. Add sources
-7. Proof read
+2. discuss case where clusters have more than one property <img src="https://render.githubusercontent.com/render/math?math=n(x_{i}^{\alpha},x_{j}^{\beta},\ldots, x_{k}^{\gamma},t)">
+3. Write conclusion
+4. Add sources
+5. Proof read
 
   
 
