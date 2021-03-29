@@ -68,6 +68,8 @@ there a <img src="https://render.githubusercontent.com/render/math?math=\frac{1}
   
 ### The Continuous Generalization
 
+We can generalize the SCE to deal we a continuum of possible clump sizes. We start with equation 1 and make the substitutions <img src="https://render.githubusercontent.com/render/math?math=x_i \rightarrow x">
+
 <img src="https://render.githubusercontent.com/render/math?math=3.\quad \frac{\partial n(x,t)}{\partial t} = \frac{1}{2} \int_{0}^{x} K(x-y,y)n(x-y,t)n(y,t)dy - \int_{0}^{\infty} K(x,y)n(x,t)n(y,t)dy">
 
 
@@ -86,6 +88,8 @@ Fig 4: Plot of the solution of the discrete SCE <img src="https://render.githubu
   A possible application of this extended model is actin treadmilling.
 
 ## Conclusion
+
+In this post we discussed the Smoluchowski Coagulation Equation. We gave an intuitive argument for why the SCE has the form that it does, for both the discrete and the continuous case.
 
 To do list:
 1. discuss continuous equation
