@@ -72,7 +72,7 @@ We can generalize the SCE to deal we a continuum of possible clump sizes. We sta
 
 <img src="https://render.githubusercontent.com/render/math?math=3.\quad \frac{\partial n(x,t)}{\partial t} = \frac{1}{2} \int_{0}^{x} K(x-y,y)n(x-y,t)n(y,t)dy - \int_{0}^{\infty} K(x,y)n(x,t)n(y,t)dy">
 
-We can interpret the quantity <img src="https://render.githubusercontent.com/render/math?math=K(x,y)n(x,t)n(y,t)dy"> as being the 
+If we interpret <img src="https://render.githubusercontent.com/render/math?math=K(x,y)"> in equation 1 as the probability *mass* function of a clump of fixed *discrete* size <img src="https://render.githubusercontent.com/render/math?math=x"> and a clump of variable *discrete* size <img src="https://render.githubusercontent.com/render/math?math=y"> coming coming together, reacting and forming a particle of size <img src="https://render.githubusercontent.com/render/math?math=z=x+y">. This allows us to interpret the term <img src="https://render.githubusercontent.com/render/math?math=K(x,y)dy"> in equation 3 as the probability *density* function of a clump of fixed *continuous* size <img src="https://render.githubusercontent.com/render/math?math=x"> and a clump of variable *continuous* size <img src="https://render.githubusercontent.com/render/math?math=y"> coming coming together, reacting and forming a particle of size <img src="https://render.githubusercontent.com/render/math?math=z=x+y">.
 
 
 ## Analytical Solutions, Numerical Methods, and Extensions
@@ -87,7 +87,7 @@ Fig 4: Plot of the solution of the discrete SCE <img src="https://render.githubu
 
   As mentioned earlier, in the original model cluster growth is always positive. In equation 4 I modified the SCE by adding some terms to account for fragmentation. All I really did was add <img src="https://render.githubusercontent.com/render/math?math=F(x,y)">, which essentially does the opposite of <img src="https://render.githubusercontent.com/render/math?math=K(x,y)">, and accounts for the reverse reaction where a cluster can fragment into two smaller clusters. Perhaps this can happen when two clusters collide and shatter. Note that there is no reason for the forward and reverse processes to have the same rates. Coagulation could be favored over fragmentation, or vis versa. A still some more complicated situation could exist where what effect dominates changes with time. Maybe the clusters become more delicate as they get larger and so are more prone to fragmentation once they have gotten large enough.
 
-  A possible application of this extended model is actin treadmilling.
+  A possible application of this extended equation is a simple model of actin treadmilling.
 
 ## Conclusion
 
