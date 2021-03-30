@@ -111,7 +111,7 @@ The main point of this post was to disect the SCE, so that we understood what th
 
 ## References
 
-1. Feynman, R. (n.d.). The Feynman lectures on Physics VOL. III Ch. 16: The dependence of Amplitudes on position. Retrieved March 30, 2021, from https://www.feynmanlectures.caltech.edu/III_16.html
+1. Feynman, R. (1964). The Feynman lectures on Physics VOL. III Ch. 16: The dependence of Amplitudes on position. Retrieved March 30, 2021, from https://www.feynmanlectures.caltech.edu/III_16.html
 2. Baggott, J. E. (1993). The meaning of quantum theory: A guide for students of chemistry and physics. Oxford: Oxford University Press.
 3. Smoluchowski coagulation equation. (2020, October 16). Retrieved March 30, 2021, from https://en.wikipedia.org/wiki/Smoluchowski_coagulation_equation
 4. Law of mass action. (2021, March 14). Retrieved March 30, 2021, from https://en.wikipedia.org/wiki/Law_of_mass_action
