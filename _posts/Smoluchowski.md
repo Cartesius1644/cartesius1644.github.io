@@ -115,11 +115,11 @@ The main point of this post was to dissect the SCE, so that we understood what t
 
 ## References
 
-1. Feynman, R. (1964). The Feynman lectures on Physics VOL. III Ch. 16: The dependence of Amplitudes on position. Retrieved March 30, 2021, from https://www.feynmanlectures.caltech.edu/III_16.html
+1. Feynman, R. (1964). The Feynman lectures on Physics VOL. III Ch. 16: The dependence of Amplitudes on position. Retrieved September 6, 2020, from https://www.feynmanlectures.caltech.edu/III_16.html
 2. Baggott, J. E. (1993). The meaning of quantum theory: A guide for students of chemistry and physics. Oxford: Oxford University Press.
-3. Smoluchowski coagulation equation. (2020, October 16). Retrieved March 30, 2021, from https://en.wikipedia.org/wiki/Smoluchowski_coagulation_equation
-4. Law of mass action. (2021, March 14). Retrieved March 30, 2021, from https://en.wikipedia.org/wiki/Law_of_mass_action
-5. Lotka–Volterra equations. (2021, March 11). Retrieved March 30, 2021, from https://en.wikipedia.org/wiki/Lotka%E2%80%93Volterra_equations
+3. Smoluchowski coagulation equation. Retrieved September 6, 2020, from https://en.wikipedia.org/wiki/Smoluchowski_coagulation_equation
+4. Law of mass action. Retrieved September 6, 2020, from https://en.wikipedia.org/wiki/Law_of_mass_action
+5. Lotka–Volterra equations. Retrieved September 6, 2020, from https://en.wikipedia.org/wiki/Lotka%E2%80%93Volterra_equations
 6. Wattis, J. A. (2006). An introduction to mathematical models of coagulation–fragmentation processes: A discrete deterministic mean-field approach. Physica D: Nonlinear Phenomena, 222(1-2), 1-20. doi:10.1016/j.physd.2006.07.024
 
 
