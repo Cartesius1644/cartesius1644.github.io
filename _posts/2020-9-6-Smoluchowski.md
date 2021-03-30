@@ -72,10 +72,12 @@ We can generalize the SCE to deal we a continuum of possible clump sizes. We sta
 
 <img src="https://render.githubusercontent.com/render/math?math=3.\quad \frac{\partial n(x,t)}{\partial t} = \frac{1}{2} \int_{0}^{x} K(x-y,y)n(x-y,t)n(y,t)dy - \int_{0}^{\infty} K(x,y)n(x,t)n(y,t)dy">
 
-If we interpret <img src="https://render.githubusercontent.com/render/math?math=K(x,y)"> in equation 1 as the probability *mass* function of a clump of fixed *discrete* size <img src="https://render.githubusercontent.com/render/math?math=x"> and a clump of variable *discrete* size <img src="https://render.githubusercontent.com/render/math?math=y"> coming coming together, reacting and forming a particle of size <img src="https://render.githubusercontent.com/render/math?math=z = x %2B y">. This allows us to interpret the term <img src="https://render.githubusercontent.com/render/math?math=K(x,y)dy"> in equation 3 as the probability *density* function of a clump of fixed *continuous* size <img src="https://render.githubusercontent.com/render/math?math=x"> and a clump of variable *continuous* size <img src="https://render.githubusercontent.com/render/math?math=y"> coming coming together, reacting and forming a particle of size <img src="https://render.githubusercontent.com/render/math?math=z= x %2B y">.
+Let us assume we are considering a fixed clump size <img src="https://render.githubusercontent.com/render/math?math=x"> (discrete or continuous), whose concentration's time evolution is governed by either equation 3 or 4. If we interpret <img src="https://render.githubusercontent.com/render/math?math=K(x,y)"> in equation 1 as the probability *mass* function of a clump of fixed, *discrete* size <img src="https://render.githubusercontent.com/render/math?math=x"> and a clump of variable, *discrete* size <img src="https://render.githubusercontent.com/render/math?math=y"> coming together, reacting and forming a clump of discrete size <img src="https://render.githubusercontent.com/render/math?math=z = x %2B y">. This allows us to interpret the term <img src="https://render.githubusercontent.com/render/math?math=K(x,y)dy"> in equation 3 as the probability *density* function of a clump of fixed, *continuous* size <img src="https://render.githubusercontent.com/render/math?math=x"> and a clump of variable, *continuous* size <img src="https://render.githubusercontent.com/render/math?math=y"> coming together, reacting and forming a clump of continuous size <img src="https://render.githubusercontent.com/render/math?math=z= x %2B y">.
+
+So, for the continous case the SCE become an integro-differential equation.
 
 
-## Analytical Solutions, Numerical Methods, and Extensions
+## An Analytical Solution and Extensions
 
 ![_config.yml]({{ site.baseurl }}/images/n_xt_SCE_k_const.png)
 
@@ -94,11 +96,10 @@ Fig 4: Plot of the solution of the discrete SCE <img src="https://render.githubu
 In this post we discussed the Smoluchowski Coagulation Equation. We gave an intuitive argument for why the SCE has the form that it does, for both the discrete and the continuous case.
 
 To do list:
-1. discuss continuous equation
-2. discuss case where clusters have more than one property <img src="https://render.githubusercontent.com/render/math?math=n(x_{i}^{\alpha},x_{j}^{\beta},\ldots, x_{k}^{\gamma},t)">
-3. Write conclusion
-4. Add sources
-5. Proof read
+1. discuss case where clusters have more than one property <img src="https://render.githubusercontent.com/render/math?math=n(x_{i}^{\alpha},x_{j}^{\beta},\ldots, x_{k}^{\gamma},t)">
+2. Write conclusion
+3. Add sources
+4. Proof read
 
   
 
