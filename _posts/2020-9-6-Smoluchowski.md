@@ -86,7 +86,11 @@ Fig 4: Plot of the solution of the discrete SCE <img src="https://render.githubu
   The analytical solution of the SCE with a constant coagulation kernel <img src="https://render.githubusercontent.com/render/math?math=K(x_i,x_j)=1"> is plotted in figure 4. It is:
 
 <img src="https://render.githubusercontent.com/render/math?math=n(x_{i},t) = \frac{4 e^{-x_{i}}}{(t%2b2)^{2}} \bigg(1 - \frac{t e^{-x_{i}}}{t%2b2}\bigg)^{-1}">
-  
+
+With initial condition (the distribution of particle sizes at <img src="https://render.githubusercontent.com/render/math?math=t=0">):
+
+<img src="https://render.githubusercontent.com/render/math?math=n(x_{i},0) = e^{-x_{i}}">
+
 It is not my intention to go through the full derivation of this solution, which can be found in the references [6]. Doing that topic justice will probably require a post of its own.
 
 <img src="https://render.githubusercontent.com/render/math?math=4.\quad \frac{\partial n(x,t)}{\partial t} = \frac{1}{2} \sum_{j=0}^{i-1} [K(x_i-x_j,x_j)-F(x_i-x_j,x_j)]n(x_i-x_j,t)n(x_j,t) - \sum_{j=1}^{\infty} [K(x_i,x_j)-F(x_i,x_j)]n(x_i,t)n(x_j,t)">
