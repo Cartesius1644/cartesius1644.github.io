@@ -95,12 +95,14 @@ It is not my intention to go through the full derivation of this solution, which
 
   A possible application of this extended equation is a simple model of actin treadmilling. This one of the simplest mechanisms involeved in restructing of the cytoskeleton in cells and in moving around cellular contents. Here is a nice video that illustates the process:
   
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=www.youtube.com/watch?v=VVgXDW_8O4U
-" target="_blank"><img src="http://img.youtube.com/vi/www.youtube.com/watch?v=VVgXDW_8O4U/0.jpg" 
+https://youtu.be/VVgXDW_8O4U
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=VVgXDW_8O4U
+" target="_blank"><img src="http://img.youtube.com/vi/VVgXDW_8O4U/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=watch?v=VVgXDW_8O4U
-" target="_blank"><img src="http://img.youtube.com/vi/watch?v=VVgXDW_8O4U/0.jpg" 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 If you where to use the extended SCE for modeling acting treadmilling we would probably use the discrete case with the actin subunits as are fundimental particles. Our clumps would now become rods, and our clump sizes would become filament lengths. Depending on the rates coagulation and fragmentation we could have filaments lengthening, shortening, or staying at some steady state length. Wnen actin treadmilling is happening, the filament is maintaining an approximately constant lenght, as new actin subunits are added onto the front and old ones are removed from the back. Consequently, the filament translates forward. Organelles can be pushed around by this process along, if they are sitting in front of a treadmilling filament.
