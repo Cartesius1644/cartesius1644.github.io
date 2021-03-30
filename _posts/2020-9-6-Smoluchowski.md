@@ -93,9 +93,9 @@ With initial condition (the distribution of particle sizes at <img src="https://
 
 It is not my intention to go through the full derivation of this solution, which can be found in the references [6]. Doing that topic justice will probably require a post of its own.
 
-<img src="https://render.githubusercontent.com/render/math?math=4.\quad \frac{\partial n(x,t)}{\partial t} = \frac{1}{2} \sum_{j=0}^{i-1} [K(x_i-x_j,x_j)-F(x_i-x_j,x_j)]n(x_i-x_j,t)n(x_j,t) - \sum_{j=1}^{\infty} [K(x_i,x_j)-F(x_i,x_j)]n(x_i,t)n(x_j,t)">
-
 ## An Extension and a Possible Application
+
+<img src="https://render.githubusercontent.com/render/math?math=4.\quad \frac{\partial n(x,t)}{\partial t} = \frac{1}{2} \sum_{j=0}^{i-1} [K(x_i-x_j,x_j)-F(x_i-x_j,x_j)]n(x_i-x_j,t)n(x_j,t) - \sum_{j=1}^{\infty} [K(x_i,x_j)-F(x_i,x_j)]n(x_i,t)n(x_j,t)">
 
   As mentioned earlier, in the original model cluster growth is always positive. In equation 4 I modified the SCE by adding some terms to account for fragmentation. All I really did was add <img src="https://render.githubusercontent.com/render/math?math=F(x,y)">, which essentially does the opposite of <img src="https://render.githubusercontent.com/render/math?math=K(x,y)">, and accounts for the reverse reaction where a cluster can fragment into two smaller clusters. Perhaps this can happen when two clusters collide and shatter. Note that there is no reason for the forward and reverse processes to have the same rates. Coagulation could be favored over fragmentation, or vis versa. A still some more complicated situation could exist where what effect dominates changes with time. Maybe the clusters become more delicate as they get larger and so are more prone to fragmentation once they have gotten large enough.
 
